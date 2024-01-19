@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/University-website-Design/index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>University, institution of higher education, usually comprising a college of liberal arts and
+                    sciences
+                    and graduate and professional schools and having the authority to confer degrees in various fields
+                    of
+                    study. A university differs from a college in that it is usually larger, has a broader curriculum,
+                    and
+                    offers graduate and professional degrees (master's and doctorates), professional degrees, in
+                    addition to
+                    undergraduate degrees (such as the bachelor's degree). Although universities did not arise in the
+                    West
+                    until the Middle Ages in Europe, they existed in some parts of Asia and Africa in ancient times.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>About Us pages are where you showcase your history, what is unique about your work,<br> your company's
+            values,
+            and who you serve. </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials </p>
+    </section>
+
+    <script>
+        var navLink = document.getElementById("navLinks");
+        function showMenu() {
+            navLink.style.right = "0px";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

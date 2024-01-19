@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/University-website-Design/index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/course.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs </h1>
+    </section>
+
+    <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs</h2>
+                <p>
+                    Professional Certificates on Coursera help you get job-ready for an in-demand career field in less
+                    than a year. Earn a career credential, apply your knowledge to hands-on projects that showcase your
+                    skills for employers, and get access to job search resources. Many programs also provide a pathway
+                    to an industry-recognized certification.<br></p>
+                <p>Our Online Certificate Courses provide the expert
+                    knowledge and skills you need to enhance your career. From leadership and management, to finance and
+                    economics, to technology, law and public policy, courses take place over 6 to 10 weeks and are
+                    taught in weekly modules, providing the ultimate flexibility for busy professionals to upskill for
+                    success.</p><br>
+                <p>
+                    Whether you're just starting out or already have some experience, we offer various Free courses
+                    designed to fit your needs. Curated from top educational institutions and industry leaders, our
+                    selection of Free courses aims to provide quality training for everyone—from individual learners
+                    seeking personal growth to corporate teams looking to upskill. For those pursuing professional
+                    advancement, skill acquisition, or even a new career path, these Free courses can be a valuable
+                    resource. Take the next step in your professional journey and enroll in a Free course today!
+                </p><br>
+                <p>
+                    Great Learning Academy is an excellent choice for free courses with certificates because of the high
+                    quality of the learning content. The courses are well-crafted, offer a great learning experience,
+                    and are interactive and engaging, making them ideal for learners in identifying what works best for
+                    their career goals.All the free courses by Great Learning Academy are self-paced, and you can
+                    complete them at your convenience. But we recommend that you prepare a schedule for doing these
+                    courses so that you complete them on time.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>18</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>About Us pages are where you showcase your history, what is unique about your work,<br> your company's
+            values,
+            and who you serve. </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials </p>
+    </section>
+
+    <script>
+        var navLink = document.getElementById("navLinks");
+        function showMenu() {
+            navLink.style.right = "0px";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
